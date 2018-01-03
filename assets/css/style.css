@@ -1,5 +1,6 @@
 body { margin: 0; background: #333; }
 header { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
   padding: .5vw;
   font-size: 0;
   display: -ms-flexbox;
