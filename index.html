@@ -27,31 +27,14 @@
     <a href="mailto:#">exam.ple@example.com</a>
   </address> -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Patrick Gathron</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="http://www.imdb.com/name/nm4549873/">IMdb</a>
-                </li>
-                <li class="nav-item">
-
-                    <a class="nav-link active" href="assets/img/resume.pdf" download> Resume</a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
+  <ul id="navbar">
+        <li class="active"><a href="#">Home</a></li>
+        <li> <a class="nav-link active" href="assets/img/resume.pdf" download> Resume</a></li>
+        <li><a href="#Bio">Bio</a></li>
+        <li><a href="http://www.imdb.com/name/nm4549873/">IMDB</a></li>
+    </ul>
+                   
+            
     <div class="grid">
             <div class="grid__item" style="background-image: url(http://i66.tinypic.com/14145eo.jpg);"></div>
             <div class="grid__item" style="background-image: url(http://i66.tinypic.com/dgkjfb.jpg);"></div>
@@ -81,10 +64,34 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+      
+    <div id="TIA" class="pharm-spotlight">
+            <div class="pharm-spotlight-image">
+                <t4 type="media" id="1753914" formatter="image/*"/>
+            </div>
 
+
+           
     
-   
+            <div id="BIO" class="pharm-spotlight">
+                    <div class="pharm-spotlight-image">
+                        <t4 type="media" id="1753914" formatter="image/*"/>
+                    </div>
+    
+                    <h1>Patrick Gathron</h1>
+                    <p>Patrick Gathron is an American film and television actor born in Sherman, Texas and raised in Dallas, Texas. He was raised as a single child by his mother Renea Gathron. With aspirations of being in the entertainment industry since childhood he originally had plans of being an entertainment lawyer but as his interest in performing arts grew he began shifting his interests towards modeling and acting.
 
+                            After graduating from Cedar Hill High School in 2009 he would go on to college, attending the University of Texas at San Antonio. While still enrolled he would commute to Austin weekly to take acting lessons and began attending open calls for modeling and acting. He worked on various independent film projects throughout the southwest regions of Texas before ultimately landing with an agent in Austin.
+                            
+                            He graduated from college in 2013 receiving a B.A. in Communications and thereafter began pursuing acting full time. Since then he has landed roles in HBO's' The Leftovers', ABC's' American Crime',National Geographic's 'The Long Road Home' and James Cameron's action adventure film 'Alita: Battle Angel'.</p>
+                  
+                </div>
+   
+<script>
+    $('#navbar li').click(function() {
+    $(this).addClass('active').siblings('li').removeClass('active');
+});
+</script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
