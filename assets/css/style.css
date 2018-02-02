@@ -3,7 +3,7 @@ html, body {
 }
 body {
     margin: 0;
-    background-color: lightsteelblue;
+    background-color: rgb(108, 117, 129);
     background-image: url('http://hdw.datawallpaper.com/architecture/vintage-new-york-city-299988.jpg');
     background-position: center;
     background-size: cover;
